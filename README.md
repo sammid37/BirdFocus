@@ -9,10 +9,10 @@ _coming soon_.
 <img src="./assets/screenshot_placeholder.png/" alt="preview">
 
 ### Features
-- Coming soo.
-- Coming soo.
-- Coming soo.
-- Coming soo.
+- Coming soon.
+- Coming soon.
+- Coming soon.
+- Coming soon.
 
 ## 💾 Install
 
@@ -30,7 +30,7 @@ npm run start
 ```markdown
 BirdFocus
 ├── node_modules
-├── main.js
+├── index.js
 ├──index.html
 ├── styles.css
 ├── script.js
@@ -38,7 +38,7 @@ BirdFocus
 └── package-lock.json
 ```
 
-- `main.js`: Electron’s main process. Creates the app window and loads the HTML file.
+- `index.js`: Electron’s main process. Creates the app window and loads the HTML file.
 - `index.html`: The main UI layout of your desktop app.
 - `styles.css`: Styles for your app UI, including draggable window behavior.
 - `script.js`: Frontend JavaScript logic for interactivity.
