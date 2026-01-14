@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: "Sono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "MONO" 1;
+}
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+    -webkit-app-region: drag;
+}
+
+.app {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.app::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.text-tiny {
+    text-align: center;
+    font-size: 0.525rem; 
+}
+
+button,
+input,
+textarea,
+select {
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+}
