@@ -1,7 +1,8 @@
+const path = require("path");
 const { app, BrowserWindow } = require("electron");
 
 var WIDTH = 320; 
-var HEIGHT = 395;
+var HEIGHT = 425;
 
 function createWindow() {
     const win = new BrowserWindow({
@@ -12,6 +13,7 @@ function createWindow() {
         fullscreenable: false,
         frame: false, 
         transparent: false,
+        icon: path.join(__dirname, "assets", "birb_placeholder_icon.ico"),
         webPreferences: {
             contextIsolation: true,
             scrollBars: { vertical: 'hidden', horizontal: 'hidden' }
